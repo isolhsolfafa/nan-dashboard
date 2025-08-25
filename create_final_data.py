@@ -20,11 +20,9 @@ try:
 except ImportError:
     print("ℹ️ python-dotenv가 설치되지 않음 - 시스템 환경변수 사용")
 
-# PAD_partner_kpi 프로젝트 경로 추가
-sys.path.append("../PAD_partner_kpi")
-
+# 로컬 partner_kpi.py 파일 사용
 try:
-    from production.partner_kpi import (
+    from partner_kpi import (
         load_json_files_from_drive,
         clean_partner_name,
         generate_nan_details,
@@ -65,7 +63,7 @@ def setup_google_credentials():
         drive_folder_id = os.getenv("DRIVE_FOLDER_ID")
         if drive_folder_id:
             # partner_kpi 모듈의 DRIVE_FOLDER_ID 전역변수 업데이트
-            import production.partner_kpi as kpi_module
+            import partner_kpi as kpi_module
 
             kpi_module.DRIVE_FOLDER_ID = drive_folder_id
             print(f"✅ Drive Folder ID 설정: {drive_folder_id[:20]}...")
@@ -86,7 +84,7 @@ def setup_google_credentials():
 def clear_cache():
     """캐시 초기화"""
     try:
-        import production.partner_kpi as kpi_module
+        import partner_kpi as kpi_module
 
         kpi_module._cached_json_data = None
         print("🗑️ 캐시 초기화 완료")
@@ -382,25 +380,29 @@ def save_final_data(data, year_month):
 
 
 if __name__ == "__main__":
-    # 8월 데이터만 우선 수정
-    month = "2025-08"
+    import datetime
 
-    print("🚀 최종 정확한 NaN 데이터 생성 시작")
+    # 현재 월 기준으로 동적 추출
+    current_date = datetime.datetime.now()
+    current_month = f"{current_date.year}-{current_date.month:02d}"
+
+    print("🚀 동적 NaN 데이터 생성 시작")
     print("=" * 50)
+    print(f"📅 현재 월: {current_month}")
 
     # 캐시 초기화
     clear_cache()
 
     # 최종 데이터 생성
-    final_data = create_final_nan_data(month)
+    final_data = create_final_nan_data(current_month)
 
     if final_data:
         # 최종 데이터 저장
-        save_final_data(final_data, month)
+        save_final_data(final_data, current_month)
 
-        print(f"\n✅ 최종 데이터 생성 완료!")
+        print(f"\n✅ {current_month} 데이터 생성 완료!")
         print(f"   - partner_kpi.py 정확한 NaN 비율 사용")
         print(f"   - 실제 상세 레코드 포함")
-        print(
-            f"   - BAT 주차별 정확한 값: 31주차(0.79%), 32주차(0.46%), 33주차(0.23%), 34주차(0.00%)"
-        )
+        print(f"   - 동적 월별 추출 시스템")
+    else:
+        print(f"❌ {current_month} 데이터 생성 실패")

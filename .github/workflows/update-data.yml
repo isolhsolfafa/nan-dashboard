@@ -29,7 +29,7 @@ jobs:
         GOOGLE_SERVICE_KEY: ${{ secrets.GOOGLE_SERVICE_KEY }}
         DRIVE_FOLDER_ID: ${{ secrets.DRIVE_FOLDER_ID }}
       run: |
-        python github_data_extractor.py
+        python create_final_data.py
         
     - name: Commit and push changes
       run: |

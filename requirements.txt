@@ -2,8 +2,11 @@
 pandas>=1.3.0
 python-dotenv>=0.19.0
 
-# Google API 관련 (필요시 추가)
+# Google API 관련
 google-api-python-client>=2.0.0
 google-auth>=2.0.0
 google-auth-oauthlib>=0.4.6
 google-auth-httplib2>=0.1.0
+
+# GitHub API (partner_kpi.py 의존성)
+PyGithub>=1.55
