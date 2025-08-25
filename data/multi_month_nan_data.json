@@ -1,0 +1,2237 @@
+{
+  "extracted_at": "2025-08-21T15:54:56.899780",
+  "months_analyzed": [
+    "2025-06",
+    "2025-07",
+    "2025-08"
+  ],
+  "total_records": 459,
+  "week_cutoff_info": {
+    "week_32_end": "2025-08-17",
+    "week_33_start": "2025-08-18",
+    "logic": "32주차 포함 이전: 금요일, 33주차부터: 일요일"
+  },
+  "monthly_data": {
+    "2025-06": {
+      "period": "2025-06",
+      "weekly_stats": {
+        "26주차": {
+          "week_number": 26,
+          "date": "2025-06-27",
+          "weekday": "Friday",
+          "is_sunday_data": false,
+          "data_source": "금요일",
+          "total_records": 55,
+          "partners": {
+            "mech": {
+              "BAT": {
+                "total_tasks": 774,
+                "nan_count": 4,
+                "nan_ratio": 0.516795865633075,
+                "records": [
+                  {
+                    "order_no": "250522/5692/5657",
+                    "model_name": "GAIA-I DUAL",
+                    "nan_count": 2,
+                    "total_tasks": 40,
+                    "nan_ratio": 5.263157894736842
+                  },
+                  {
+                    "order_no": "250522/5692/5657",
+                    "model_name": "GAIA-I DUAL",
+                    "nan_count": 2,
+                    "total_tasks": 40,
+                    "nan_ratio": 5.263157894736842
+                  }
+                ]
+              },
+              "FNI": {
+                "total_tasks": 1206,
+                "nan_count": 0,
+                "nan_ratio": 0.0,
+                "records": []
+              },
+              "TMS": {
+                "total_tasks": 158,
+                "nan_count": 0,
+                "nan_ratio": 0.0,
+                "records": []
+              }
+            },
+            "elec": {
+              "TMS": {
+                "total_tasks": 928,
+                "nan_count": 0,
+                "nan_ratio": 0.0,
+                "records": []
+              },
+              "P&S": {
+                "total_tasks": 554,
+                "nan_count": 50,
+                "nan_ratio": 9.025270758122744,
+                "records": [
+                  {
+                    "order_no": "250610/5680/5728",
+                    "model_name": "GAIA-I DUAL",
+                    "nan_count": 13,
+                    "total_tasks": 40,
+                    "nan_ratio": 33.33333333333333
+                  },
+                  {
+                    "order_no": "250612/5764/5737",
+                    "model_name": "GAIA-I DUAL",
+                    "nan_count": 12,
+                    "total_tasks": 38,
+                    "nan_ratio": 33.33333333333333
+                  },
+                  {
+                    "order_no": "250610/5680/5728",
+                    "model_name": "GAIA-I DUAL",
+                    "nan_count": 13,
+                    "total_tasks": 40,
+                    "nan_ratio": 33.33333333333333
+                  },
+                  {
+                    "order_no": "250612/5764/5737",
+                    "model_name": "GAIA-I DUAL",
+                    "nan_count": 12,
+                    "total_tasks": 38,
+                    "nan_ratio": 33.33333333333333
+                  }
+                ]
+              },
+              "C&A": {
+                "total_tasks": 656,
+                "nan_count": 0,
+                "nan_ratio": 0.0,
+                "records": []
+              }
+            }
+          }
+        },
+        "25주차": {
+          "week_number": 25,
+          "date": "2025-06-20",
+          "weekday": "Friday",
+          "is_sunday_data": false,
+          "data_source": "금요일",
+          "total_records": 27,
+          "partners": {
+            "mech": {
+              "FNI": {
+                "total_tasks": 409,
+                "nan_count": 0,
+                "nan_ratio": 0.0,
+                "records": []
+              },
+              "BAT": {
+                "total_tasks": 542,
+                "nan_count": 0,
+                "nan_ratio": 0.0,
+                "records": []
+              },
+              "TMS": {
+                "total_tasks": 67,
+                "nan_count": 0,
+                "nan_ratio": 0.0,
+                "records": []
+              }
+            },
+            "elec": {
+              "C&A": {
+                "total_tasks": 319,
+                "nan_count": 0,
+                "nan_ratio": 0.0,
+                "records": []
+              },
+              "TMS": {
+                "total_tasks": 466,
+                "nan_count": 0,
+                "nan_ratio": 0.0,
+                "records": []
+              },
+              "P&S": {
+                "total_tasks": 233,
+                "nan_count": 0,
+                "nan_ratio": 0.0,
+                "records": []
+              }
+            }
+          }
+        },
+        "24주차": {
+          "week_number": 24,
+          "date": "2025-06-13",
+          "weekday": "Friday",
+          "is_sunday_data": false,
+          "data_source": "금요일",
+          "total_records": 46,
+          "partners": {
+            "mech": {
+              "FNI": {
+                "total_tasks": 1183,
+                "nan_count": 157,
+                "nan_ratio": 13.271344040574808,
+                "records": [
+                  {
+                    "order_no": "250311/5371/5451",
+                    "model_name": "GAIA-I DUAL",
+                    "nan_count": 7,
+                    "total_tasks": 48,
+                    "nan_ratio": 15.789473684210526
+                  },
+                  {
+                    "order_no": "250528/5538/5687",
+                    "model_name": "GAIA-I DUAL",
+                    "nan_count": 4,
+                    "total_tasks": 42,
+                    "nan_ratio": 10.0
+                  },
+                  {
+                    "order_no": "250409/5589/5527",
+                    "model_name": "GAIA-I",
+                    "nan_count": 4,
+                    "total_tasks": 43,
+                    "nan_ratio": 9.523809523809524
+                  },
+                  {
+                    "order_no": "250409/5589/5528",
+                    "model_name": "GAIA-I",
+                    "nan_count": 6,
+                    "total_tasks": 44,
+                    "nan_ratio": 15.789473684210526
+                  },
+                  {
+                    "order_no": "250523/5587/5661",
+                    "model_name": "GAIA-II",
+                    "nan_count": 7,
+                    "total_tasks": 44,
+                    "nan_ratio": 17.647058823529413
+                  },
+                  {
+                    "order_no": "250523/5587/5662",
+                    "model_name": "GAIA-II",
+                    "nan_count": 7,
+                    "total_tasks": 44,
+                    "nan_ratio": 17.647058823529413
+                  },
+                  {
+                    "order_no": "250523/5587/5663",
+                    "model_name": "GAIA-II",
+                    "nan_count": 6,
+                    "total_tasks": 44,
+                    "nan_ratio": 15.789473684210526
+                  },
+                  {
+                    "order_no": "250523/5587/5664",
+                    "model_name": "GAIA-II",
+                    "nan_count": 6,
+                    "total_tasks": 46,
+                    "nan_ratio": 15.0
+                  },
+                  {
+                    "order_no": "250521/5593/5647",
+                    "model_name": "GAIA-I DUAL",
+                    "nan_count": 7,
+                    "total_tasks": 43,
+                    "nan_ratio": 16.666666666666664
+                  },
+                  {
+                    "order_no": "250527/5669/5679",
+                    "model_name": "GAIA-I DUAL",
+                    "nan_count": 4,
+                    "total_tasks": 41,
+                    "nan_ratio": 11.76470588235294
+                  },
+                  {
+                    "order_no": "250526/5670/5673",
+                    "model_name": "GAIA-I DUAL",
+                    "nan_count": 6,
+                    "total_tasks": 40,
+                    "nan_ratio": 15.789473684210526
+                  },
+                  {
+                    "order_no": "250526/5670/5674",
+                    "model_name": "GAIA-I DUAL",
+                    "nan_count": 6,
+                    "total_tasks": 42,
+                    "nan_ratio": 15.789473684210526
+                  },
+                  {
+                    "order_no": "250526/5670/5675",
+                    "model_name": "GAIA-I DUAL",
+                    "nan_count": 6,
+                    "total_tasks": 41,
+                    "nan_ratio": 16.666666666666664
+                  },
+                  {
+                    "order_no": "250528/5719/5686",
+                    "model_name": "GAIA-I",
+                    "nan_count": 6,
+                    "total_tasks": 41,
+                    "nan_ratio": 16.666666666666664
+                  },
+                  {
+                    "order_no": "250522/5745/0563",
+                    "model_name": "GAIA-P DUAL",
+                    "nan_count": 8,
+                    "total_tasks": 41,
+                    "nan_ratio": 20.0
+                  },
+                  {
+                    "order_no": "250522/5745/0564",
+                    "model_name": "GAIA-P DUAL",
+                    "nan_count": 5,
+                    "total_tasks": 43,
+                    "nan_ratio": 11.76470588235294
+                  },
+                  {
+                    "order_no": "250522/5745/0565",
+                    "model_name": "GAIA-P DUAL",
+                    "nan_count": 8,
+                    "total_tasks": 43,
+                    "nan_ratio": 20.0
+                  },
+                  {
+                    "order_no": "250522/5745/0566",
+                    "model_name": "GAIA-P DUAL",
+                    "nan_count": 4,
+                    "total_tasks": 42,
+                    "nan_ratio": 11.11111111111111
+                  },
+                  {
+                    "order_no": "250521/5723/5652",
+                    "model_name": "GAIA-I",
+                    "nan_count": 6,
+                    "total_tasks": 42,
+                    "nan_ratio": 16.666666666666664
+                  },
+                  {
+                    "order_no": "250521/5723/5654",
+                    "model_name": "GAIA-I",
+                    "nan_count": 4,
+                    "total_tasks": 44,
+                    "nan_ratio": 11.11111111111111
+                  },
+                  {
+                    "order_no": "250521/5723/5655",
+                    "model_name": "GAIA-I",
+                    "nan_count": 7,
+                    "total_tasks": 46,
+                    "nan_ratio": 15.789473684210526
+                  },
+                  {
+                    "order_no": "250523/5724/5667",
+                    "model_name": "GAIA-II",
+                    "nan_count": 4,
+                    "total_tasks": 40,
+                    "nan_ratio": 10.0
+                  },
+                  {
+                    "order_no": "250523/5724/5668",
+                    "model_name": "GAIA-II",
+                    "nan_count": 4,
+                    "total_tasks": 40,
+                    "nan_ratio": 10.526315789473683
+                  },
+                  {
+                    "order_no": "250523/5732/5669",
+                    "model_name": "GAIA-I",
+                    "nan_count": 2,
+                    "total_tasks": 41,
+                    "nan_ratio": 5.555555555555555
+                  },
+                  {
+                    "order_no": "250523/5732/5670",
+                    "model_name": "GAIA-I",
+                    "nan_count": 4,
+                    "total_tasks": 40,
+                    "nan_ratio": 11.11111111111111
+                  },
+                  {
+                    "order_no": "250521/5733/3658",
+                    "model_name": "DRAGON DUAL",
+                    "nan_count": 8,
+                    "total_tasks": 36,
+                    "nan_ratio": 23.52941176470588
+                  },
+                  {
+                    "order_no": "250527/5759/5696",
+                    "model_name": "GAIA-I",
+                    "nan_count": 7,
+                    "total_tasks": 41,
+                    "nan_ratio": 17.647058823529413
+                  },
+                  {
+                    "order_no": "250527/5759/5697",
+                    "model_name": "GAIA-I",
+                    "nan_count": 4,
+                    "total_tasks": 41,
+                    "nan_ratio": 11.76470588235294
+                  }
+                ]
+              },
+              "BAT": {
+                "total_tasks": 750,
+                "nan_count": 12,
+                "nan_ratio": 1.6,
+                "records": [
+                  {
+                    "order_no": "250522/5692/5656",
+                    "model_name": "GAIA-I DUAL",
+                    "nan_count": 2,
+                    "total_tasks": 39,
+                    "nan_ratio": 5.263157894736842
+                  },
+                  {
+                    "order_no": "250526/5739/5676",
+                    "model_name": "GAIA-I",
+                    "nan_count": 3,
+                    "total_tasks": 41,
+                    "nan_ratio": 9.523809523809524
+                  },
+                  {
+                    "order_no": "250526/5739/5677",
+                    "model_name": "GAIA-I",
+                    "nan_count": 3,
+                    "total_tasks": 41,
+                    "nan_ratio": 9.523809523809524
+                  },
+                  {
+                    "order_no": "250528/5740/5691",
+                    "model_name": "GAIA-I",
+                    "nan_count": 4,
+                    "total_tasks": 41,
+                    "nan_ratio": 10.0
+                  }
+                ]
+              }
+            },
+            "elec": {
+              "C&A": {
+                "total_tasks": 607,
+                "nan_count": 0,
+                "nan_ratio": 0.0,
+                "records": []
+              },
+              "TMS": {
+                "total_tasks": 797,
+                "nan_count": 0,
+                "nan_ratio": 0.0,
+                "records": []
+              },
+              "P&S": {
+                "total_tasks": 529,
+                "nan_count": 0,
+                "nan_ratio": 0.0,
+                "records": []
+              }
+            }
+          }
+        },
+        "23주차": {
+          "week_number": 23,
+          "date": "2025-06-06",
+          "weekday": "Friday",
+          "is_sunday_data": false,
+          "data_source": "금요일",
+          "total_records": 25,
+          "partners": {
+            "mech": {
+              "FNI": {
+                "total_tasks": 514,
+                "nan_count": 82,
+                "nan_ratio": 15.953307392996107,
+                "records": [
+                  {
+                    "order_no": "250311/5371/5451",
+                    "model_name": "GAIA-I DUAL",
+                    "nan_count": 7,
+                    "total_tasks": 48,
+                    "nan_ratio": 15.789473684210526
+                  },
+                  {
+                    "order_no": "250214/5564/5377",
+                    "model_name": "GAIA-I DUAL",
+                    "nan_count": 6,
+                    "total_tasks": 43,
+                    "nan_ratio": 15.0
+                  },
+                  {
+                    "order_no": "250417/5587/5574",
+                    "model_name": "GAIA-II",
+                    "nan_count": 6,
+                    "total_tasks": 43,
+                    "nan_ratio": 14.285714285714285
+                  },
+                  {
+                    "order_no": "250516/5591/5631",
+                    "model_name": "GAIA-I DUAL",
+                    "nan_count": 4,
+                    "total_tasks": 45,
+                    "nan_ratio": 10.0
+                  },
+                  {
+                    "order_no": "250522/5591/5658",
+                    "model_name": "GAIA-I DUAL",
+                    "nan_count": 6,
+                    "total_tasks": 44,
+                    "nan_ratio": 15.789473684210526
+                  },
+                  {
+                    "order_no": "250516/5615/5632",
+                    "model_name": "GAIA-I",
+                    "nan_count": 4,
+                    "total_tasks": 43,
+                    "nan_ratio": 10.526315789473683
+                  },
+                  {
+                    "order_no": "250516/5615/5633",
+                    "model_name": "GAIA-I",
+                    "nan_count": 7,
+                    "total_tasks": 45,
+                    "nan_ratio": 16.666666666666664
+                  },
+                  {
+                    "order_no": "250516/5666/5635",
+                    "model_name": "GAIA-I DUAL",
+                    "nan_count": 12,
+                    "total_tasks": 45,
+                    "nan_ratio": 27.77777777777778
+                  },
+                  {
+                    "order_no": "250521/5718/5650",
+                    "model_name": "GAIA-I",
+                    "nan_count": 4,
+                    "total_tasks": 41,
+                    "nan_ratio": 11.11111111111111
+                  },
+                  {
+                    "order_no": "250521/5723/5652",
+                    "model_name": "GAIA-I",
+                    "nan_count": 9,
+                    "total_tasks": 42,
+                    "nan_ratio": 22.22222222222222
+                  },
+                  {
+                    "order_no": "250521/5723/5653",
+                    "model_name": "GAIA-I",
+                    "nan_count": 9,
+                    "total_tasks": 39,
+                    "nan_ratio": 25.0
+                  },
+                  {
+                    "order_no": "250521/5733/3658",
+                    "model_name": "DRAGON DUAL",
+                    "nan_count": 8,
+                    "total_tasks": 36,
+                    "nan_ratio": 23.52941176470588
+                  }
+                ]
+              },
+              "BAT": {
+                "total_tasks": 482,
+                "nan_count": 2,
+                "nan_ratio": 0.4149377593360996,
+                "records": [
+                  {
+                    "order_no": "250313/5504/0536",
+                    "model_name": "GAIA-P",
+                    "nan_count": 2,
+                    "total_tasks": 43,
+                    "nan_ratio": 5.0
+                  }
+                ]
+              },
+              "TMS": {
+                "total_tasks": 36,
+                "nan_count": 4,
+                "nan_ratio": 11.11111111111111,
+                "records": [
+                  {
+                    "order_no": "250522/5683/3659",
+                    "model_name": "DRAGON DUAL",
+                    "nan_count": 4,
+                    "total_tasks": 36,
+                    "nan_ratio": 13.333333333333334
+                  }
+                ]
+              }
+            },
+            "elec": {
+              "C&A": {
+                "total_tasks": 444,
+                "nan_count": 5,
+                "nan_ratio": 1.1261261261261262,
+                "records": [
+                  {
+                    "order_no": "250516/5666/5635",
+                    "model_name": "GAIA-I DUAL",
+                    "nan_count": 5,
+                    "total_tasks": 45,
+                    "nan_ratio": 11.11111111111111
+                  }
+                ]
+              },
+              "P&S": {
+                "total_tasks": 79,
+                "nan_count": 23,
+                "nan_ratio": 29.11392405063291,
+                "records": [
+                  {
+                    "order_no": "250521/5733/3658",
+                    "model_name": "DRAGON DUAL",
+                    "nan_count": 23,
+                    "total_tasks": 36,
+                    "nan_ratio": 66.66666666666666
+                  }
+                ]
+              },
+              "TMS": {
+                "total_tasks": 509,
+                "nan_count": 0,
+                "nan_ratio": 0.0,
+                "records": []
+              }
+            }
+          }
+        }
+      },
+      "partner_monthly": {
+        "BAT": {
+          "total_tasks": 2548,
+          "nan_count": 18,
+          "weeks": {
+            "26주차": {
+              "nan_count": 4,
+              "total_tasks": 774
+            },
+            "25주차": {
+              "nan_count": 0,
+              "total_tasks": 542
+            },
+            "24주차": {
+              "nan_count": 12,
+              "total_tasks": 750
+            },
+            "23주차": {
+              "nan_count": 2,
+              "total_tasks": 482
+            }
+          },
+          "nan_ratio": 0.7064364207221351
+        },
+        "TMS": {
+          "total_tasks": 2961,
+          "nan_count": 4,
+          "weeks": {
+            "26주차": {
+              "nan_count": 0,
+              "total_tasks": 928
+            },
+            "25주차": {
+              "nan_count": 0,
+              "total_tasks": 466
+            },
+            "24주차": {
+              "nan_count": 0,
+              "total_tasks": 797
+            },
+            "23주차": {
+              "nan_count": 0,
+              "total_tasks": 509
+            }
+          },
+          "nan_ratio": 0.13508949679162446
+        },
+        "P&S": {
+          "total_tasks": 1395,
+          "nan_count": 73,
+          "weeks": {
+            "26주차": {
+              "nan_count": 50,
+              "total_tasks": 554
+            },
+            "25주차": {
+              "nan_count": 0,
+              "total_tasks": 233
+            },
+            "24주차": {
+              "nan_count": 0,
+              "total_tasks": 529
+            },
+            "23주차": {
+              "nan_count": 23,
+              "total_tasks": 79
+            }
+          },
+          "nan_ratio": 5.232974910394265
+        },
+        "FNI": {
+          "total_tasks": 3312,
+          "nan_count": 239,
+          "weeks": {
+            "26주차": {
+              "nan_count": 0,
+              "total_tasks": 1206
+            },
+            "25주차": {
+              "nan_count": 0,
+              "total_tasks": 409
+            },
+            "24주차": {
+              "nan_count": 157,
+              "total_tasks": 1183
+            },
+            "23주차": {
+              "nan_count": 82,
+              "total_tasks": 514
+            }
+          },
+          "nan_ratio": 7.216183574879227
+        },
+        "C&A": {
+          "total_tasks": 2026,
+          "nan_count": 5,
+          "weeks": {
+            "26주차": {
+              "nan_count": 0,
+              "total_tasks": 656
+            },
+            "25주차": {
+              "nan_count": 0,
+              "total_tasks": 319
+            },
+            "24주차": {
+              "nan_count": 0,
+              "total_tasks": 607
+            },
+            "23주차": {
+              "nan_count": 5,
+              "total_tasks": 444
+            }
+          },
+          "nan_ratio": 0.24679170779861795
+        }
+      }
+    },
+    "2025-07": {
+      "period": "2025-07",
+      "weekly_stats": {
+        "26주차": {
+          "week_number": 26,
+          "date": "2025-06-27",
+          "weekday": "Friday",
+          "is_sunday_data": false,
+          "data_source": "금요일",
+          "total_records": 55,
+          "partners": {
+            "mech": {
+              "BAT": {
+                "total_tasks": 774,
+                "nan_count": 4,
+                "nan_ratio": 0.516795865633075,
+                "records": [
+                  {
+                    "order_no": "250522/5692/5657",
+                    "model_name": "GAIA-I DUAL",
+                    "nan_count": 2,
+                    "total_tasks": 40,
+                    "nan_ratio": 5.263157894736842
+                  },
+                  {
+                    "order_no": "250522/5692/5657",
+                    "model_name": "GAIA-I DUAL",
+                    "nan_count": 2,
+                    "total_tasks": 40,
+                    "nan_ratio": 5.263157894736842
+                  }
+                ]
+              },
+              "FNI": {
+                "total_tasks": 1206,
+                "nan_count": 0,
+                "nan_ratio": 0.0,
+                "records": []
+              },
+              "TMS": {
+                "total_tasks": 158,
+                "nan_count": 0,
+                "nan_ratio": 0.0,
+                "records": []
+              }
+            },
+            "elec": {
+              "TMS": {
+                "total_tasks": 928,
+                "nan_count": 0,
+                "nan_ratio": 0.0,
+                "records": []
+              },
+              "P&S": {
+                "total_tasks": 554,
+                "nan_count": 50,
+                "nan_ratio": 9.025270758122744,
+                "records": [
+                  {
+                    "order_no": "250610/5680/5728",
+                    "model_name": "GAIA-I DUAL",
+                    "nan_count": 13,
+                    "total_tasks": 40,
+                    "nan_ratio": 33.33333333333333
+                  },
+                  {
+                    "order_no": "250612/5764/5737",
+                    "model_name": "GAIA-I DUAL",
+                    "nan_count": 12,
+                    "total_tasks": 38,
+                    "nan_ratio": 33.33333333333333
+                  },
+                  {
+                    "order_no": "250610/5680/5728",
+                    "model_name": "GAIA-I DUAL",
+                    "nan_count": 13,
+                    "total_tasks": 40,
+                    "nan_ratio": 33.33333333333333
+                  },
+                  {
+                    "order_no": "250612/5764/5737",
+                    "model_name": "GAIA-I DUAL",
+                    "nan_count": 12,
+                    "total_tasks": 38,
+                    "nan_ratio": 33.33333333333333
+                  }
+                ]
+              },
+              "C&A": {
+                "total_tasks": 656,
+                "nan_count": 0,
+                "nan_ratio": 0.0,
+                "records": []
+              }
+            }
+          }
+        },
+        "25주차": {
+          "week_number": 25,
+          "date": "2025-06-20",
+          "weekday": "Friday",
+          "is_sunday_data": false,
+          "data_source": "금요일",
+          "total_records": 27,
+          "partners": {
+            "mech": {
+              "FNI": {
+                "total_tasks": 409,
+                "nan_count": 0,
+                "nan_ratio": 0.0,
+                "records": []
+              },
+              "BAT": {
+                "total_tasks": 542,
+                "nan_count": 0,
+                "nan_ratio": 0.0,
+                "records": []
+              },
+              "TMS": {
+                "total_tasks": 67,
+                "nan_count": 0,
+                "nan_ratio": 0.0,
+                "records": []
+              }
+            },
+            "elec": {
+              "C&A": {
+                "total_tasks": 319,
+                "nan_count": 0,
+                "nan_ratio": 0.0,
+                "records": []
+              },
+              "TMS": {
+                "total_tasks": 466,
+                "nan_count": 0,
+                "nan_ratio": 0.0,
+                "records": []
+              },
+              "P&S": {
+                "total_tasks": 233,
+                "nan_count": 0,
+                "nan_ratio": 0.0,
+                "records": []
+              }
+            }
+          }
+        },
+        "24주차": {
+          "week_number": 24,
+          "date": "2025-06-13",
+          "weekday": "Friday",
+          "is_sunday_data": false,
+          "data_source": "금요일",
+          "total_records": 46,
+          "partners": {
+            "mech": {
+              "FNI": {
+                "total_tasks": 1183,
+                "nan_count": 157,
+                "nan_ratio": 13.271344040574808,
+                "records": [
+                  {
+                    "order_no": "250311/5371/5451",
+                    "model_name": "GAIA-I DUAL",
+                    "nan_count": 7,
+                    "total_tasks": 48,
+                    "nan_ratio": 15.789473684210526
+                  },
+                  {
+                    "order_no": "250528/5538/5687",
+                    "model_name": "GAIA-I DUAL",
+                    "nan_count": 4,
+                    "total_tasks": 42,
+                    "nan_ratio": 10.0
+                  },
+                  {
+                    "order_no": "250409/5589/5527",
+                    "model_name": "GAIA-I",
+                    "nan_count": 4,
+                    "total_tasks": 43,
+                    "nan_ratio": 9.523809523809524
+                  },
+                  {
+                    "order_no": "250409/5589/5528",
+                    "model_name": "GAIA-I",
+                    "nan_count": 6,
+                    "total_tasks": 44,
+                    "nan_ratio": 15.789473684210526
+                  },
+                  {
+                    "order_no": "250523/5587/5661",
+                    "model_name": "GAIA-II",
+                    "nan_count": 7,
+                    "total_tasks": 44,
+                    "nan_ratio": 17.647058823529413
+                  },
+                  {
+                    "order_no": "250523/5587/5662",
+                    "model_name": "GAIA-II",
+                    "nan_count": 7,
+                    "total_tasks": 44,
+                    "nan_ratio": 17.647058823529413
+                  },
+                  {
+                    "order_no": "250523/5587/5663",
+                    "model_name": "GAIA-II",
+                    "nan_count": 6,
+                    "total_tasks": 44,
+                    "nan_ratio": 15.789473684210526
+                  },
+                  {
+                    "order_no": "250523/5587/5664",
+                    "model_name": "GAIA-II",
+                    "nan_count": 6,
+                    "total_tasks": 46,
+                    "nan_ratio": 15.0
+                  },
+                  {
+                    "order_no": "250521/5593/5647",
+                    "model_name": "GAIA-I DUAL",
+                    "nan_count": 7,
+                    "total_tasks": 43,
+                    "nan_ratio": 16.666666666666664
+                  },
+                  {
+                    "order_no": "250527/5669/5679",
+                    "model_name": "GAIA-I DUAL",
+                    "nan_count": 4,
+                    "total_tasks": 41,
+                    "nan_ratio": 11.76470588235294
+                  },
+                  {
+                    "order_no": "250526/5670/5673",
+                    "model_name": "GAIA-I DUAL",
+                    "nan_count": 6,
+                    "total_tasks": 40,
+                    "nan_ratio": 15.789473684210526
+                  },
+                  {
+                    "order_no": "250526/5670/5674",
+                    "model_name": "GAIA-I DUAL",
+                    "nan_count": 6,
+                    "total_tasks": 42,
+                    "nan_ratio": 15.789473684210526
+                  },
+                  {
+                    "order_no": "250526/5670/5675",
+                    "model_name": "GAIA-I DUAL",
+                    "nan_count": 6,
+                    "total_tasks": 41,
+                    "nan_ratio": 16.666666666666664
+                  },
+                  {
+                    "order_no": "250528/5719/5686",
+                    "model_name": "GAIA-I",
+                    "nan_count": 6,
+                    "total_tasks": 41,
+                    "nan_ratio": 16.666666666666664
+                  },
+                  {
+                    "order_no": "250522/5745/0563",
+                    "model_name": "GAIA-P DUAL",
+                    "nan_count": 8,
+                    "total_tasks": 41,
+                    "nan_ratio": 20.0
+                  },
+                  {
+                    "order_no": "250522/5745/0564",
+                    "model_name": "GAIA-P DUAL",
+                    "nan_count": 5,
+                    "total_tasks": 43,
+                    "nan_ratio": 11.76470588235294
+                  },
+                  {
+                    "order_no": "250522/5745/0565",
+                    "model_name": "GAIA-P DUAL",
+                    "nan_count": 8,
+                    "total_tasks": 43,
+                    "nan_ratio": 20.0
+                  },
+                  {
+                    "order_no": "250522/5745/0566",
+                    "model_name": "GAIA-P DUAL",
+                    "nan_count": 4,
+                    "total_tasks": 42,
+                    "nan_ratio": 11.11111111111111
+                  },
+                  {
+                    "order_no": "250521/5723/5652",
+                    "model_name": "GAIA-I",
+                    "nan_count": 6,
+                    "total_tasks": 42,
+                    "nan_ratio": 16.666666666666664
+                  },
+                  {
+                    "order_no": "250521/5723/5654",
+                    "model_name": "GAIA-I",
+                    "nan_count": 4,
+                    "total_tasks": 44,
+                    "nan_ratio": 11.11111111111111
+                  },
+                  {
+                    "order_no": "250521/5723/5655",
+                    "model_name": "GAIA-I",
+                    "nan_count": 7,
+                    "total_tasks": 46,
+                    "nan_ratio": 15.789473684210526
+                  },
+                  {
+                    "order_no": "250523/5724/5667",
+                    "model_name": "GAIA-II",
+                    "nan_count": 4,
+                    "total_tasks": 40,
+                    "nan_ratio": 10.0
+                  },
+                  {
+                    "order_no": "250523/5724/5668",
+                    "model_name": "GAIA-II",
+                    "nan_count": 4,
+                    "total_tasks": 40,
+                    "nan_ratio": 10.526315789473683
+                  },
+                  {
+                    "order_no": "250523/5732/5669",
+                    "model_name": "GAIA-I",
+                    "nan_count": 2,
+                    "total_tasks": 41,
+                    "nan_ratio": 5.555555555555555
+                  },
+                  {
+                    "order_no": "250523/5732/5670",
+                    "model_name": "GAIA-I",
+                    "nan_count": 4,
+                    "total_tasks": 40,
+                    "nan_ratio": 11.11111111111111
+                  },
+                  {
+                    "order_no": "250521/5733/3658",
+                    "model_name": "DRAGON DUAL",
+                    "nan_count": 8,
+                    "total_tasks": 36,
+                    "nan_ratio": 23.52941176470588
+                  },
+                  {
+                    "order_no": "250527/5759/5696",
+                    "model_name": "GAIA-I",
+                    "nan_count": 7,
+                    "total_tasks": 41,
+                    "nan_ratio": 17.647058823529413
+                  },
+                  {
+                    "order_no": "250527/5759/5697",
+                    "model_name": "GAIA-I",
+                    "nan_count": 4,
+                    "total_tasks": 41,
+                    "nan_ratio": 11.76470588235294
+                  }
+                ]
+              },
+              "BAT": {
+                "total_tasks": 750,
+                "nan_count": 12,
+                "nan_ratio": 1.6,
+                "records": [
+                  {
+                    "order_no": "250522/5692/5656",
+                    "model_name": "GAIA-I DUAL",
+                    "nan_count": 2,
+                    "total_tasks": 39,
+                    "nan_ratio": 5.263157894736842
+                  },
+                  {
+                    "order_no": "250526/5739/5676",
+                    "model_name": "GAIA-I",
+                    "nan_count": 3,
+                    "total_tasks": 41,
+                    "nan_ratio": 9.523809523809524
+                  },
+                  {
+                    "order_no": "250526/5739/5677",
+                    "model_name": "GAIA-I",
+                    "nan_count": 3,
+                    "total_tasks": 41,
+                    "nan_ratio": 9.523809523809524
+                  },
+                  {
+                    "order_no": "250528/5740/5691",
+                    "model_name": "GAIA-I",
+                    "nan_count": 4,
+                    "total_tasks": 41,
+                    "nan_ratio": 10.0
+                  }
+                ]
+              }
+            },
+            "elec": {
+              "C&A": {
+                "total_tasks": 607,
+                "nan_count": 0,
+                "nan_ratio": 0.0,
+                "records": []
+              },
+              "TMS": {
+                "total_tasks": 797,
+                "nan_count": 0,
+                "nan_ratio": 0.0,
+                "records": []
+              },
+              "P&S": {
+                "total_tasks": 529,
+                "nan_count": 0,
+                "nan_ratio": 0.0,
+                "records": []
+              }
+            }
+          }
+        },
+        "23주차": {
+          "week_number": 23,
+          "date": "2025-06-06",
+          "weekday": "Friday",
+          "is_sunday_data": false,
+          "data_source": "금요일",
+          "total_records": 25,
+          "partners": {
+            "mech": {
+              "FNI": {
+                "total_tasks": 514,
+                "nan_count": 82,
+                "nan_ratio": 15.953307392996107,
+                "records": [
+                  {
+                    "order_no": "250311/5371/5451",
+                    "model_name": "GAIA-I DUAL",
+                    "nan_count": 7,
+                    "total_tasks": 48,
+                    "nan_ratio": 15.789473684210526
+                  },
+                  {
+                    "order_no": "250214/5564/5377",
+                    "model_name": "GAIA-I DUAL",
+                    "nan_count": 6,
+                    "total_tasks": 43,
+                    "nan_ratio": 15.0
+                  },
+                  {
+                    "order_no": "250417/5587/5574",
+                    "model_name": "GAIA-II",
+                    "nan_count": 6,
+                    "total_tasks": 43,
+                    "nan_ratio": 14.285714285714285
+                  },
+                  {
+                    "order_no": "250516/5591/5631",
+                    "model_name": "GAIA-I DUAL",
+                    "nan_count": 4,
+                    "total_tasks": 45,
+                    "nan_ratio": 10.0
+                  },
+                  {
+                    "order_no": "250522/5591/5658",
+                    "model_name": "GAIA-I DUAL",
+                    "nan_count": 6,
+                    "total_tasks": 44,
+                    "nan_ratio": 15.789473684210526
+                  },
+                  {
+                    "order_no": "250516/5615/5632",
+                    "model_name": "GAIA-I",
+                    "nan_count": 4,
+                    "total_tasks": 43,
+                    "nan_ratio": 10.526315789473683
+                  },
+                  {
+                    "order_no": "250516/5615/5633",
+                    "model_name": "GAIA-I",
+                    "nan_count": 7,
+                    "total_tasks": 45,
+                    "nan_ratio": 16.666666666666664
+                  },
+                  {
+                    "order_no": "250516/5666/5635",
+                    "model_name": "GAIA-I DUAL",
+                    "nan_count": 12,
+                    "total_tasks": 45,
+                    "nan_ratio": 27.77777777777778
+                  },
+                  {
+                    "order_no": "250521/5718/5650",
+                    "model_name": "GAIA-I",
+                    "nan_count": 4,
+                    "total_tasks": 41,
+                    "nan_ratio": 11.11111111111111
+                  },
+                  {
+                    "order_no": "250521/5723/5652",
+                    "model_name": "GAIA-I",
+                    "nan_count": 9,
+                    "total_tasks": 42,
+                    "nan_ratio": 22.22222222222222
+                  },
+                  {
+                    "order_no": "250521/5723/5653",
+                    "model_name": "GAIA-I",
+                    "nan_count": 9,
+                    "total_tasks": 39,
+                    "nan_ratio": 25.0
+                  },
+                  {
+                    "order_no": "250521/5733/3658",
+                    "model_name": "DRAGON DUAL",
+                    "nan_count": 8,
+                    "total_tasks": 36,
+                    "nan_ratio": 23.52941176470588
+                  }
+                ]
+              },
+              "BAT": {
+                "total_tasks": 482,
+                "nan_count": 2,
+                "nan_ratio": 0.4149377593360996,
+                "records": [
+                  {
+                    "order_no": "250313/5504/0536",
+                    "model_name": "GAIA-P",
+                    "nan_count": 2,
+                    "total_tasks": 43,
+                    "nan_ratio": 5.0
+                  }
+                ]
+              },
+              "TMS": {
+                "total_tasks": 36,
+                "nan_count": 4,
+                "nan_ratio": 11.11111111111111,
+                "records": [
+                  {
+                    "order_no": "250522/5683/3659",
+                    "model_name": "DRAGON DUAL",
+                    "nan_count": 4,
+                    "total_tasks": 36,
+                    "nan_ratio": 13.333333333333334
+                  }
+                ]
+              }
+            },
+            "elec": {
+              "C&A": {
+                "total_tasks": 444,
+                "nan_count": 5,
+                "nan_ratio": 1.1261261261261262,
+                "records": [
+                  {
+                    "order_no": "250516/5666/5635",
+                    "model_name": "GAIA-I DUAL",
+                    "nan_count": 5,
+                    "total_tasks": 45,
+                    "nan_ratio": 11.11111111111111
+                  }
+                ]
+              },
+              "P&S": {
+                "total_tasks": 79,
+                "nan_count": 23,
+                "nan_ratio": 29.11392405063291,
+                "records": [
+                  {
+                    "order_no": "250521/5733/3658",
+                    "model_name": "DRAGON DUAL",
+                    "nan_count": 23,
+                    "total_tasks": 36,
+                    "nan_ratio": 66.66666666666666
+                  }
+                ]
+              },
+              "TMS": {
+                "total_tasks": 509,
+                "nan_count": 0,
+                "nan_ratio": 0.0,
+                "records": []
+              }
+            }
+          }
+        }
+      },
+      "partner_monthly": {
+        "BAT": {
+          "total_tasks": 2548,
+          "nan_count": 18,
+          "weeks": {
+            "26주차": {
+              "nan_count": 4,
+              "total_tasks": 774
+            },
+            "25주차": {
+              "nan_count": 0,
+              "total_tasks": 542
+            },
+            "24주차": {
+              "nan_count": 12,
+              "total_tasks": 750
+            },
+            "23주차": {
+              "nan_count": 2,
+              "total_tasks": 482
+            }
+          },
+          "nan_ratio": 0.7064364207221351
+        },
+        "TMS": {
+          "total_tasks": 2961,
+          "nan_count": 4,
+          "weeks": {
+            "26주차": {
+              "nan_count": 0,
+              "total_tasks": 928
+            },
+            "25주차": {
+              "nan_count": 0,
+              "total_tasks": 466
+            },
+            "24주차": {
+              "nan_count": 0,
+              "total_tasks": 797
+            },
+            "23주차": {
+              "nan_count": 0,
+              "total_tasks": 509
+            }
+          },
+          "nan_ratio": 0.13508949679162446
+        },
+        "P&S": {
+          "total_tasks": 1395,
+          "nan_count": 73,
+          "weeks": {
+            "26주차": {
+              "nan_count": 50,
+              "total_tasks": 554
+            },
+            "25주차": {
+              "nan_count": 0,
+              "total_tasks": 233
+            },
+            "24주차": {
+              "nan_count": 0,
+              "total_tasks": 529
+            },
+            "23주차": {
+              "nan_count": 23,
+              "total_tasks": 79
+            }
+          },
+          "nan_ratio": 5.232974910394265
+        },
+        "FNI": {
+          "total_tasks": 3312,
+          "nan_count": 239,
+          "weeks": {
+            "26주차": {
+              "nan_count": 0,
+              "total_tasks": 1206
+            },
+            "25주차": {
+              "nan_count": 0,
+              "total_tasks": 409
+            },
+            "24주차": {
+              "nan_count": 157,
+              "total_tasks": 1183
+            },
+            "23주차": {
+              "nan_count": 82,
+              "total_tasks": 514
+            }
+          },
+          "nan_ratio": 7.216183574879227
+        },
+        "C&A": {
+          "total_tasks": 2026,
+          "nan_count": 5,
+          "weeks": {
+            "26주차": {
+              "nan_count": 0,
+              "total_tasks": 656
+            },
+            "25주차": {
+              "nan_count": 0,
+              "total_tasks": 319
+            },
+            "24주차": {
+              "nan_count": 0,
+              "total_tasks": 607
+            },
+            "23주차": {
+              "nan_count": 5,
+              "total_tasks": 444
+            }
+          },
+          "nan_ratio": 0.24679170779861795
+        }
+      }
+    },
+    "2025-08": {
+      "period": "2025-08",
+      "weekly_stats": {
+        "26주차": {
+          "week_number": 26,
+          "date": "2025-06-27",
+          "weekday": "Friday",
+          "is_sunday_data": false,
+          "data_source": "금요일",
+          "total_records": 55,
+          "partners": {
+            "mech": {
+              "BAT": {
+                "total_tasks": 774,
+                "nan_count": 4,
+                "nan_ratio": 0.516795865633075,
+                "records": [
+                  {
+                    "order_no": "250522/5692/5657",
+                    "model_name": "GAIA-I DUAL",
+                    "nan_count": 2,
+                    "total_tasks": 40,
+                    "nan_ratio": 5.263157894736842
+                  },
+                  {
+                    "order_no": "250522/5692/5657",
+                    "model_name": "GAIA-I DUAL",
+                    "nan_count": 2,
+                    "total_tasks": 40,
+                    "nan_ratio": 5.263157894736842
+                  }
+                ]
+              },
+              "FNI": {
+                "total_tasks": 1206,
+                "nan_count": 0,
+                "nan_ratio": 0.0,
+                "records": []
+              },
+              "TMS": {
+                "total_tasks": 158,
+                "nan_count": 0,
+                "nan_ratio": 0.0,
+                "records": []
+              }
+            },
+            "elec": {
+              "TMS": {
+                "total_tasks": 928,
+                "nan_count": 0,
+                "nan_ratio": 0.0,
+                "records": []
+              },
+              "P&S": {
+                "total_tasks": 554,
+                "nan_count": 50,
+                "nan_ratio": 9.025270758122744,
+                "records": [
+                  {
+                    "order_no": "250610/5680/5728",
+                    "model_name": "GAIA-I DUAL",
+                    "nan_count": 13,
+                    "total_tasks": 40,
+                    "nan_ratio": 33.33333333333333
+                  },
+                  {
+                    "order_no": "250612/5764/5737",
+                    "model_name": "GAIA-I DUAL",
+                    "nan_count": 12,
+                    "total_tasks": 38,
+                    "nan_ratio": 33.33333333333333
+                  },
+                  {
+                    "order_no": "250610/5680/5728",
+                    "model_name": "GAIA-I DUAL",
+                    "nan_count": 13,
+                    "total_tasks": 40,
+                    "nan_ratio": 33.33333333333333
+                  },
+                  {
+                    "order_no": "250612/5764/5737",
+                    "model_name": "GAIA-I DUAL",
+                    "nan_count": 12,
+                    "total_tasks": 38,
+                    "nan_ratio": 33.33333333333333
+                  }
+                ]
+              },
+              "C&A": {
+                "total_tasks": 656,
+                "nan_count": 0,
+                "nan_ratio": 0.0,
+                "records": []
+              }
+            }
+          }
+        },
+        "25주차": {
+          "week_number": 25,
+          "date": "2025-06-20",
+          "weekday": "Friday",
+          "is_sunday_data": false,
+          "data_source": "금요일",
+          "total_records": 27,
+          "partners": {
+            "mech": {
+              "FNI": {
+                "total_tasks": 409,
+                "nan_count": 0,
+                "nan_ratio": 0.0,
+                "records": []
+              },
+              "BAT": {
+                "total_tasks": 542,
+                "nan_count": 0,
+                "nan_ratio": 0.0,
+                "records": []
+              },
+              "TMS": {
+                "total_tasks": 67,
+                "nan_count": 0,
+                "nan_ratio": 0.0,
+                "records": []
+              }
+            },
+            "elec": {
+              "C&A": {
+                "total_tasks": 319,
+                "nan_count": 0,
+                "nan_ratio": 0.0,
+                "records": []
+              },
+              "TMS": {
+                "total_tasks": 466,
+                "nan_count": 0,
+                "nan_ratio": 0.0,
+                "records": []
+              },
+              "P&S": {
+                "total_tasks": 233,
+                "nan_count": 0,
+                "nan_ratio": 0.0,
+                "records": []
+              }
+            }
+          }
+        },
+        "24주차": {
+          "week_number": 24,
+          "date": "2025-06-13",
+          "weekday": "Friday",
+          "is_sunday_data": false,
+          "data_source": "금요일",
+          "total_records": 46,
+          "partners": {
+            "mech": {
+              "FNI": {
+                "total_tasks": 1183,
+                "nan_count": 157,
+                "nan_ratio": 13.271344040574808,
+                "records": [
+                  {
+                    "order_no": "250311/5371/5451",
+                    "model_name": "GAIA-I DUAL",
+                    "nan_count": 7,
+                    "total_tasks": 48,
+                    "nan_ratio": 15.789473684210526
+                  },
+                  {
+                    "order_no": "250528/5538/5687",
+                    "model_name": "GAIA-I DUAL",
+                    "nan_count": 4,
+                    "total_tasks": 42,
+                    "nan_ratio": 10.0
+                  },
+                  {
+                    "order_no": "250409/5589/5527",
+                    "model_name": "GAIA-I",
+                    "nan_count": 4,
+                    "total_tasks": 43,
+                    "nan_ratio": 9.523809523809524
+                  },
+                  {
+                    "order_no": "250409/5589/5528",
+                    "model_name": "GAIA-I",
+                    "nan_count": 6,
+                    "total_tasks": 44,
+                    "nan_ratio": 15.789473684210526
+                  },
+                  {
+                    "order_no": "250523/5587/5661",
+                    "model_name": "GAIA-II",
+                    "nan_count": 7,
+                    "total_tasks": 44,
+                    "nan_ratio": 17.647058823529413
+                  },
+                  {
+                    "order_no": "250523/5587/5662",
+                    "model_name": "GAIA-II",
+                    "nan_count": 7,
+                    "total_tasks": 44,
+                    "nan_ratio": 17.647058823529413
+                  },
+                  {
+                    "order_no": "250523/5587/5663",
+                    "model_name": "GAIA-II",
+                    "nan_count": 6,
+                    "total_tasks": 44,
+                    "nan_ratio": 15.789473684210526
+                  },
+                  {
+                    "order_no": "250523/5587/5664",
+                    "model_name": "GAIA-II",
+                    "nan_count": 6,
+                    "total_tasks": 46,
+                    "nan_ratio": 15.0
+                  },
+                  {
+                    "order_no": "250521/5593/5647",
+                    "model_name": "GAIA-I DUAL",
+                    "nan_count": 7,
+                    "total_tasks": 43,
+                    "nan_ratio": 16.666666666666664
+                  },
+                  {
+                    "order_no": "250527/5669/5679",
+                    "model_name": "GAIA-I DUAL",
+                    "nan_count": 4,
+                    "total_tasks": 41,
+                    "nan_ratio": 11.76470588235294
+                  },
+                  {
+                    "order_no": "250526/5670/5673",
+                    "model_name": "GAIA-I DUAL",
+                    "nan_count": 6,
+                    "total_tasks": 40,
+                    "nan_ratio": 15.789473684210526
+                  },
+                  {
+                    "order_no": "250526/5670/5674",
+                    "model_name": "GAIA-I DUAL",
+                    "nan_count": 6,
+                    "total_tasks": 42,
+                    "nan_ratio": 15.789473684210526
+                  },
+                  {
+                    "order_no": "250526/5670/5675",
+                    "model_name": "GAIA-I DUAL",
+                    "nan_count": 6,
+                    "total_tasks": 41,
+                    "nan_ratio": 16.666666666666664
+                  },
+                  {
+                    "order_no": "250528/5719/5686",
+                    "model_name": "GAIA-I",
+                    "nan_count": 6,
+                    "total_tasks": 41,
+                    "nan_ratio": 16.666666666666664
+                  },
+                  {
+                    "order_no": "250522/5745/0563",
+                    "model_name": "GAIA-P DUAL",
+                    "nan_count": 8,
+                    "total_tasks": 41,
+                    "nan_ratio": 20.0
+                  },
+                  {
+                    "order_no": "250522/5745/0564",
+                    "model_name": "GAIA-P DUAL",
+                    "nan_count": 5,
+                    "total_tasks": 43,
+                    "nan_ratio": 11.76470588235294
+                  },
+                  {
+                    "order_no": "250522/5745/0565",
+                    "model_name": "GAIA-P DUAL",
+                    "nan_count": 8,
+                    "total_tasks": 43,
+                    "nan_ratio": 20.0
+                  },
+                  {
+                    "order_no": "250522/5745/0566",
+                    "model_name": "GAIA-P DUAL",
+                    "nan_count": 4,
+                    "total_tasks": 42,
+                    "nan_ratio": 11.11111111111111
+                  },
+                  {
+                    "order_no": "250521/5723/5652",
+                    "model_name": "GAIA-I",
+                    "nan_count": 6,
+                    "total_tasks": 42,
+                    "nan_ratio": 16.666666666666664
+                  },
+                  {
+                    "order_no": "250521/5723/5654",
+                    "model_name": "GAIA-I",
+                    "nan_count": 4,
+                    "total_tasks": 44,
+                    "nan_ratio": 11.11111111111111
+                  },
+                  {
+                    "order_no": "250521/5723/5655",
+                    "model_name": "GAIA-I",
+                    "nan_count": 7,
+                    "total_tasks": 46,
+                    "nan_ratio": 15.789473684210526
+                  },
+                  {
+                    "order_no": "250523/5724/5667",
+                    "model_name": "GAIA-II",
+                    "nan_count": 4,
+                    "total_tasks": 40,
+                    "nan_ratio": 10.0
+                  },
+                  {
+                    "order_no": "250523/5724/5668",
+                    "model_name": "GAIA-II",
+                    "nan_count": 4,
+                    "total_tasks": 40,
+                    "nan_ratio": 10.526315789473683
+                  },
+                  {
+                    "order_no": "250523/5732/5669",
+                    "model_name": "GAIA-I",
+                    "nan_count": 2,
+                    "total_tasks": 41,
+                    "nan_ratio": 5.555555555555555
+                  },
+                  {
+                    "order_no": "250523/5732/5670",
+                    "model_name": "GAIA-I",
+                    "nan_count": 4,
+                    "total_tasks": 40,
+                    "nan_ratio": 11.11111111111111
+                  },
+                  {
+                    "order_no": "250521/5733/3658",
+                    "model_name": "DRAGON DUAL",
+                    "nan_count": 8,
+                    "total_tasks": 36,
+                    "nan_ratio": 23.52941176470588
+                  },
+                  {
+                    "order_no": "250527/5759/5696",
+                    "model_name": "GAIA-I",
+                    "nan_count": 7,
+                    "total_tasks": 41,
+                    "nan_ratio": 17.647058823529413
+                  },
+                  {
+                    "order_no": "250527/5759/5697",
+                    "model_name": "GAIA-I",
+                    "nan_count": 4,
+                    "total_tasks": 41,
+                    "nan_ratio": 11.76470588235294
+                  }
+                ]
+              },
+              "BAT": {
+                "total_tasks": 750,
+                "nan_count": 12,
+                "nan_ratio": 1.6,
+                "records": [
+                  {
+                    "order_no": "250522/5692/5656",
+                    "model_name": "GAIA-I DUAL",
+                    "nan_count": 2,
+                    "total_tasks": 39,
+                    "nan_ratio": 5.263157894736842
+                  },
+                  {
+                    "order_no": "250526/5739/5676",
+                    "model_name": "GAIA-I",
+                    "nan_count": 3,
+                    "total_tasks": 41,
+                    "nan_ratio": 9.523809523809524
+                  },
+                  {
+                    "order_no": "250526/5739/5677",
+                    "model_name": "GAIA-I",
+                    "nan_count": 3,
+                    "total_tasks": 41,
+                    "nan_ratio": 9.523809523809524
+                  },
+                  {
+                    "order_no": "250528/5740/5691",
+                    "model_name": "GAIA-I",
+                    "nan_count": 4,
+                    "total_tasks": 41,
+                    "nan_ratio": 10.0
+                  }
+                ]
+              }
+            },
+            "elec": {
+              "C&A": {
+                "total_tasks": 607,
+                "nan_count": 0,
+                "nan_ratio": 0.0,
+                "records": []
+              },
+              "TMS": {
+                "total_tasks": 797,
+                "nan_count": 0,
+                "nan_ratio": 0.0,
+                "records": []
+              },
+              "P&S": {
+                "total_tasks": 529,
+                "nan_count": 0,
+                "nan_ratio": 0.0,
+                "records": []
+              }
+            }
+          }
+        },
+        "23주차": {
+          "week_number": 23,
+          "date": "2025-06-06",
+          "weekday": "Friday",
+          "is_sunday_data": false,
+          "data_source": "금요일",
+          "total_records": 25,
+          "partners": {
+            "mech": {
+              "FNI": {
+                "total_tasks": 514,
+                "nan_count": 82,
+                "nan_ratio": 15.953307392996107,
+                "records": [
+                  {
+                    "order_no": "250311/5371/5451",
+                    "model_name": "GAIA-I DUAL",
+                    "nan_count": 7,
+                    "total_tasks": 48,
+                    "nan_ratio": 15.789473684210526
+                  },
+                  {
+                    "order_no": "250214/5564/5377",
+                    "model_name": "GAIA-I DUAL",
+                    "nan_count": 6,
+                    "total_tasks": 43,
+                    "nan_ratio": 15.0
+                  },
+                  {
+                    "order_no": "250417/5587/5574",
+                    "model_name": "GAIA-II",
+                    "nan_count": 6,
+                    "total_tasks": 43,
+                    "nan_ratio": 14.285714285714285
+                  },
+                  {
+                    "order_no": "250516/5591/5631",
+                    "model_name": "GAIA-I DUAL",
+                    "nan_count": 4,
+                    "total_tasks": 45,
+                    "nan_ratio": 10.0
+                  },
+                  {
+                    "order_no": "250522/5591/5658",
+                    "model_name": "GAIA-I DUAL",
+                    "nan_count": 6,
+                    "total_tasks": 44,
+                    "nan_ratio": 15.789473684210526
+                  },
+                  {
+                    "order_no": "250516/5615/5632",
+                    "model_name": "GAIA-I",
+                    "nan_count": 4,
+                    "total_tasks": 43,
+                    "nan_ratio": 10.526315789473683
+                  },
+                  {
+                    "order_no": "250516/5615/5633",
+                    "model_name": "GAIA-I",
+                    "nan_count": 7,
+                    "total_tasks": 45,
+                    "nan_ratio": 16.666666666666664
+                  },
+                  {
+                    "order_no": "250516/5666/5635",
+                    "model_name": "GAIA-I DUAL",
+                    "nan_count": 12,
+                    "total_tasks": 45,
+                    "nan_ratio": 27.77777777777778
+                  },
+                  {
+                    "order_no": "250521/5718/5650",
+                    "model_name": "GAIA-I",
+                    "nan_count": 4,
+                    "total_tasks": 41,
+                    "nan_ratio": 11.11111111111111
+                  },
+                  {
+                    "order_no": "250521/5723/5652",
+                    "model_name": "GAIA-I",
+                    "nan_count": 9,
+                    "total_tasks": 42,
+                    "nan_ratio": 22.22222222222222
+                  },
+                  {
+                    "order_no": "250521/5723/5653",
+                    "model_name": "GAIA-I",
+                    "nan_count": 9,
+                    "total_tasks": 39,
+                    "nan_ratio": 25.0
+                  },
+                  {
+                    "order_no": "250521/5733/3658",
+                    "model_name": "DRAGON DUAL",
+                    "nan_count": 8,
+                    "total_tasks": 36,
+                    "nan_ratio": 23.52941176470588
+                  }
+                ]
+              },
+              "BAT": {
+                "total_tasks": 482,
+                "nan_count": 2,
+                "nan_ratio": 0.4149377593360996,
+                "records": [
+                  {
+                    "order_no": "250313/5504/0536",
+                    "model_name": "GAIA-P",
+                    "nan_count": 2,
+                    "total_tasks": 43,
+                    "nan_ratio": 5.0
+                  }
+                ]
+              },
+              "TMS": {
+                "total_tasks": 36,
+                "nan_count": 4,
+                "nan_ratio": 11.11111111111111,
+                "records": [
+                  {
+                    "order_no": "250522/5683/3659",
+                    "model_name": "DRAGON DUAL",
+                    "nan_count": 4,
+                    "total_tasks": 36,
+                    "nan_ratio": 13.333333333333334
+                  }
+                ]
+              }
+            },
+            "elec": {
+              "C&A": {
+                "total_tasks": 444,
+                "nan_count": 5,
+                "nan_ratio": 1.1261261261261262,
+                "records": [
+                  {
+                    "order_no": "250516/5666/5635",
+                    "model_name": "GAIA-I DUAL",
+                    "nan_count": 5,
+                    "total_tasks": 45,
+                    "nan_ratio": 11.11111111111111
+                  }
+                ]
+              },
+              "P&S": {
+                "total_tasks": 79,
+                "nan_count": 23,
+                "nan_ratio": 29.11392405063291,
+                "records": [
+                  {
+                    "order_no": "250521/5733/3658",
+                    "model_name": "DRAGON DUAL",
+                    "nan_count": 23,
+                    "total_tasks": 36,
+                    "nan_ratio": 66.66666666666666
+                  }
+                ]
+              },
+              "TMS": {
+                "total_tasks": 509,
+                "nan_count": 0,
+                "nan_ratio": 0.0,
+                "records": []
+              }
+            }
+          }
+        }
+      },
+      "partner_monthly": {
+        "BAT": {
+          "total_tasks": 2548,
+          "nan_count": 18,
+          "weeks": {
+            "26주차": {
+              "nan_count": 4,
+              "total_tasks": 774
+            },
+            "25주차": {
+              "nan_count": 0,
+              "total_tasks": 542
+            },
+            "24주차": {
+              "nan_count": 12,
+              "total_tasks": 750
+            },
+            "23주차": {
+              "nan_count": 2,
+              "total_tasks": 482
+            }
+          },
+          "nan_ratio": 0.7064364207221351
+        },
+        "TMS": {
+          "total_tasks": 2961,
+          "nan_count": 4,
+          "weeks": {
+            "26주차": {
+              "nan_count": 0,
+              "total_tasks": 928
+            },
+            "25주차": {
+              "nan_count": 0,
+              "total_tasks": 466
+            },
+            "24주차": {
+              "nan_count": 0,
+              "total_tasks": 797
+            },
+            "23주차": {
+              "nan_count": 0,
+              "total_tasks": 509
+            }
+          },
+          "nan_ratio": 0.13508949679162446
+        },
+        "P&S": {
+          "total_tasks": 1395,
+          "nan_count": 73,
+          "weeks": {
+            "26주차": {
+              "nan_count": 50,
+              "total_tasks": 554
+            },
+            "25주차": {
+              "nan_count": 0,
+              "total_tasks": 233
+            },
+            "24주차": {
+              "nan_count": 0,
+              "total_tasks": 529
+            },
+            "23주차": {
+              "nan_count": 23,
+              "total_tasks": 79
+            }
+          },
+          "nan_ratio": 5.232974910394265
+        },
+        "FNI": {
+          "total_tasks": 3312,
+          "nan_count": 239,
+          "weeks": {
+            "26주차": {
+              "nan_count": 0,
+              "total_tasks": 1206
+            },
+            "25주차": {
+              "nan_count": 0,
+              "total_tasks": 409
+            },
+            "24주차": {
+              "nan_count": 157,
+              "total_tasks": 1183
+            },
+            "23주차": {
+              "nan_count": 82,
+              "total_tasks": 514
+            }
+          },
+          "nan_ratio": 7.216183574879227
+        },
+        "C&A": {
+          "total_tasks": 2026,
+          "nan_count": 5,
+          "weeks": {
+            "26주차": {
+              "nan_count": 0,
+              "total_tasks": 656
+            },
+            "25주차": {
+              "nan_count": 0,
+              "total_tasks": 319
+            },
+            "24주차": {
+              "nan_count": 0,
+              "total_tasks": 607
+            },
+            "23주차": {
+              "nan_count": 5,
+              "total_tasks": 444
+            }
+          },
+          "nan_ratio": 0.24679170779861795
+        }
+      }
+    }
+  },
+  "partner_summary": {
+    "BAT": {
+      "total_tasks": 7644,
+      "nan_count": 54,
+      "months": {
+        "2025-06": {
+          "total_tasks": 2548,
+          "nan_count": 18,
+          "nan_ratio": 0.7064364207221351
+        },
+        "2025-07": {
+          "total_tasks": 2548,
+          "nan_count": 18,
+          "nan_ratio": 0.7064364207221351
+        },
+        "2025-08": {
+          "total_tasks": 2548,
+          "nan_count": 18,
+          "nan_ratio": 0.7064364207221351
+        }
+      },
+      "nan_ratio": 0.7064364207221351
+    },
+    "TMS": {
+      "total_tasks": 8883,
+      "nan_count": 12,
+      "months": {
+        "2025-06": {
+          "total_tasks": 2961,
+          "nan_count": 4,
+          "nan_ratio": 0.13508949679162446
+        },
+        "2025-07": {
+          "total_tasks": 2961,
+          "nan_count": 4,
+          "nan_ratio": 0.13508949679162446
+        },
+        "2025-08": {
+          "total_tasks": 2961,
+          "nan_count": 4,
+          "nan_ratio": 0.13508949679162446
+        }
+      },
+      "nan_ratio": 0.13508949679162446
+    },
+    "P&S": {
+      "total_tasks": 4185,
+      "nan_count": 219,
+      "months": {
+        "2025-06": {
+          "total_tasks": 1395,
+          "nan_count": 73,
+          "nan_ratio": 5.232974910394265
+        },
+        "2025-07": {
+          "total_tasks": 1395,
+          "nan_count": 73,
+          "nan_ratio": 5.232974910394265
+        },
+        "2025-08": {
+          "total_tasks": 1395,
+          "nan_count": 73,
+          "nan_ratio": 5.232974910394265
+        }
+      },
+      "nan_ratio": 5.232974910394265
+    },
+    "FNI": {
+      "total_tasks": 9936,
+      "nan_count": 717,
+      "months": {
+        "2025-06": {
+          "total_tasks": 3312,
+          "nan_count": 239,
+          "nan_ratio": 7.216183574879227
+        },
+        "2025-07": {
+          "total_tasks": 3312,
+          "nan_count": 239,
+          "nan_ratio": 7.216183574879227
+        },
+        "2025-08": {
+          "total_tasks": 3312,
+          "nan_count": 239,
+          "nan_ratio": 7.216183574879227
+        }
+      },
+      "nan_ratio": 7.216183574879227
+    },
+    "C&A": {
+      "total_tasks": 6078,
+      "nan_count": 15,
+      "months": {
+        "2025-06": {
+          "total_tasks": 2026,
+          "nan_count": 5,
+          "nan_ratio": 0.24679170779861795
+        },
+        "2025-07": {
+          "total_tasks": 2026,
+          "nan_count": 5,
+          "nan_ratio": 0.24679170779861795
+        },
+        "2025-08": {
+          "total_tasks": 2026,
+          "nan_count": 5,
+          "nan_ratio": 0.24679170779861795
+        }
+      },
+      "nan_ratio": 0.24679170779861795
+    }
+  }
+}
