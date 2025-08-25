@@ -80,7 +80,16 @@ open http://localhost:8000
    git push -u origin main
    ```
 
-2. **Netlify 배포**
+2. **GitHub Secrets 설정** (데이터 자동 업데이트용)
+   ```
+   Repository Settings > Secrets and variables > Actions
+   
+   📋 추가할 Secrets:
+   - GOOGLE_SERVICE_KEY: Google Service Account JSON 키 전체 내용
+   - DRIVE_FOLDER_ID: Google Drive 폴더 ID
+   ```
+
+3. **Netlify 배포**
    - [Netlify](https://netlify.com)에서 GitHub 저장소 연결
    - Build settings: **빌드 불필요** (정적 사이트)
    - Publish directory: `/` (루트)

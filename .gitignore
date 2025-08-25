@@ -29,10 +29,11 @@ Thumbs.db
 # Logs
 *.log
 
-# Environment variables
+# Environment variables (Google Service Key 등)
 .env
 .env.local
 .env.production
+google_service_key.json
 
 # Optional: Uncomment if you want to exclude data files
 # data/*.json

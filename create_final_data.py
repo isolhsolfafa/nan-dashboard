@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """
 partner_kpi.py의 정확한 NaN 비율 + 실제 상세 레코드를 모두 포함한 최종 데이터 생성기
+환경변수 지원: 로컬 .env 파일 또는 GitHub Secrets 사용
 """
 
 import sys
@@ -9,6 +10,14 @@ import json
 import datetime
 from collections import defaultdict
 import pandas as pd
+
+# 환경변수 로드 (python-dotenv 사용)
+try:
+    from dotenv import load_dotenv
+    load_dotenv()  # .env 파일에서 환경변수 로드
+    print("📁 .env 파일 로드 완료")
+except ImportError:
+    print("ℹ️ python-dotenv가 설치되지 않음 - 시스템 환경변수 사용")
 
 # PAD_partner_kpi 프로젝트 경로 추가
 sys.path.append('../PAD_partner_kpi')
@@ -24,6 +33,52 @@ except ImportError as e:
     print(f"Error importing partner_kpi module: {e}")
     sys.exit(1)
 
+def setup_google_credentials():
+    """
+    환경변수에서 Google Service Key를 설정
+    로컬: .env 파일 사용
+    GitHub Actions: GOOGLE_SERVICE_KEY secret 사용
+    """
+    service_key_json = os.getenv('GOOGLE_SERVICE_KEY')
+    
+    if not service_key_json:
+        print("❌ GOOGLE_SERVICE_KEY 환경변수가 설정되지 않았습니다.")
+        print("로컬: .env 파일에 GOOGLE_SERVICE_KEY 설정")
+        print("GitHub: Repository Settings > Secrets에 GOOGLE_SERVICE_KEY 추가")
+        return False
+    
+    try:
+        # JSON 문자열을 파싱하여 검증
+        service_key = json.loads(service_key_json)
+        
+        # 임시 파일로 저장 (Google API 라이브러리가 파일 경로를 요구하는 경우)
+        temp_key_file = '/tmp/google_service_key.json'
+        with open(temp_key_file, 'w') as f:
+            json.dump(service_key, f)
+        
+        # 환경변수로 Google API에 인증 정보 전달
+        os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = temp_key_file
+        
+        # Drive Folder ID 설정
+        drive_folder_id = os.getenv('DRIVE_FOLDER_ID')
+        if drive_folder_id:
+            # partner_kpi 모듈의 DRIVE_FOLDER_ID 전역변수 업데이트
+            import production.partner_kpi as kpi_module
+            kpi_module.DRIVE_FOLDER_ID = drive_folder_id
+            print(f"✅ Drive Folder ID 설정: {drive_folder_id[:20]}...")
+        else:
+            print("⚠️ DRIVE_FOLDER_ID 환경변수가 설정되지 않음 - 기본값 사용")
+        
+        print("✅ Google Service Key 설정 완료")
+        return True
+        
+    except json.JSONDecodeError as e:
+        print(f"❌ GOOGLE_SERVICE_KEY JSON 파싱 오류: {e}")
+        return False
+    except Exception as e:
+        print(f"❌ Google Service Key 설정 오류: {e}")
+        return False
+
 def clear_cache():
     """캐시 초기화"""
     try:
@@ -38,6 +93,11 @@ def create_final_nan_data(year_month="2025-08"):
     partner_kpi.py의 정확한 NaN 비율 + 실제 상세 레코드를 포함한 최종 데이터 생성
     """
     print(f"🔍 {year_month} 최종 NaN 데이터 생성 시작...")
+    
+    # Google 인증 설정
+    if not setup_google_credentials():
+        print("❌ Google 인증 설정 실패")
+        return None
     
     try:
         # 기존 검증된 함수로 JSON 데이터 로드
