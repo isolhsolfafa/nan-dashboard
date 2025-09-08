@@ -8,14 +8,21 @@ class NanDashboard {
         this.data = null;
         this.charts = {};
         this.currentView = 'mech'; // 'mech' 또는 'elec'
-        this.currentMonth = '2025-08'; // 기본 선택 월
+        this.currentMonth = null; // 동적으로 설정될 기본 월
         this.monthlyData = {}; // 월별 데이터 캐시
+        this.availableMonths = []; // 사용 가능한 월 목록
         
         this.init();
     }
 
     async init() {
         try {
+            // 사용 가능한 월 자동 감지
+            await this.detectAvailableMonths();
+            
+            // 동적 월 선택기 설정
+            this.setupDynamicMonthSelector();
+            
             // 데이터 로드
             await this.loadData();
             
@@ -40,14 +47,102 @@ class NanDashboard {
         }
     }
 
+    async detectAvailableMonths() {
+        console.log("🔍 사용 가능한 월 자동 감지 중...");
+        
+        try {
+            // 테스트할 월 범위 정의 (2025-01 ~ 2026-12)
+            const testMonths = [];
+            for (let year = 2025; year <= 2026; year++) {
+                for (let month = 1; month <= 12; month++) {
+                    const monthStr = `${year}-${month.toString().padStart(2, '0')}`;
+                    testMonths.push(monthStr);
+                }
+            }
+            
+            const availableMonths = [];
+            
+            // 각 월의 improved.json 파일 존재 여부 확인
+            for (const month of testMonths) {
+                const filePath = `data/nan_data_${month.replace('-', '_')}_improved.json`;
+                
+                try {
+                    const response = await fetch(filePath, { method: 'HEAD' });
+                    if (response.ok) {
+                        availableMonths.push(month);
+                        console.log(`✅ ${month} 데이터 발견: ${filePath}`);
+                    }
+                } catch (error) {
+                    // 파일이 없는 경우 무시
+                }
+            }
+            
+            if (availableMonths.length === 0) {
+                console.warn("⚠️ 사용 가능한 월 데이터가 없습니다. 기본값 사용");
+                this.availableMonths = ['2025-08'];
+                this.currentMonth = '2025-08';
+            } else {
+                // 최신 월을 기본값으로 설정
+                this.availableMonths = availableMonths.sort();
+                this.currentMonth = this.availableMonths[this.availableMonths.length - 1];
+                
+                console.log(`📅 사용 가능한 월: ${this.availableMonths.join(', ')}`);
+                console.log(`🎯 기본 선택 월: ${this.currentMonth}`);
+            }
+            
+        } catch (error) {
+            console.error('월 감지 실패:', error);
+            // 폴백: 기본값 사용
+            this.availableMonths = ['2025-06', '2025-07', '2025-08', '2025-09'];
+            this.currentMonth = '2025-09';
+        }
+    }
+
+    setupDynamicMonthSelector() {
+        const monthSelector = document.getElementById('monthSelector');
+        if (!monthSelector) {
+            console.warn('월 선택기 요소를 찾을 수 없습니다.');
+            return;
+        }
+
+        // 기존 옵션 제거 (all 옵션 제외)
+        const options = monthSelector.querySelectorAll('option');
+        options.forEach(option => {
+            if (option.value !== 'all') {
+                option.remove();
+            }
+        });
+
+        // 동적으로 월 옵션 추가
+        this.availableMonths.forEach(month => {
+            const option = document.createElement('option');
+            option.value = month;
+            
+            // 표시 형식: 2025-08 → 2025년 8월
+            const [year, monthNum] = month.split('-');
+            option.textContent = `${year}년 ${parseInt(monthNum)}월`;
+            
+            // 현재 선택된 월이면 selected 추가
+            if (month === this.currentMonth) {
+                option.selected = true;
+            }
+            
+            monthSelector.appendChild(option);
+        });
+
+        console.log(`📅 월 선택기 업데이트 완료: ${this.availableMonths.length}개 월`);
+    }
+
     async loadData(month = this.currentMonth) {
         try {
-            // 월별 데이터 파일 매핑 (_improved.json 파일 사용)
-            const monthFileMap = {
-                '2025-06': 'data/nan_data_2025_06_improved.json',
-                '2025-07': 'data/nan_data_2025_07_improved.json', 
-                '2025-08': 'data/nan_data_2025_08_improved.json'
-            };
+            // 동적 월별 데이터 파일 매핑 생성
+            const monthFileMap = {};
+            for (const availableMonth of this.availableMonths) {
+                const fileName = `nan_data_${availableMonth.replace('-', '_')}_improved.json`;
+                monthFileMap[availableMonth] = `data/${fileName}`;
+            }
+            
+            console.log(`📂 동적 파일 매핑:`, monthFileMap);
 
             if (month === 'all') {
                 // 전체 기간 데이터 처리
@@ -164,8 +259,10 @@ class NanDashboard {
             }
             
             // 임베디드 데이터가 없으면 파일에서 로드
-            const months = ['2025-06', '2025-07', '2025-08'];
+            const months = this.availableMonths;
             const allData = {};
+            
+            console.log(`📊 전체 데이터 로드 대상: ${months.join(', ')}`);
             
             for (const month of months) {
                 // _improved.json 파일 사용
@@ -193,9 +290,12 @@ class NanDashboard {
 
     combineMonthlyData(allData) {
         // 여러 월 데이터를 하나로 통합
+        const firstMonth = this.availableMonths[0];
+        const lastMonth = this.availableMonths[this.availableMonths.length - 1];
+        
         const combined = {
             extracted_at: new Date().toISOString(),
-            period: '2025-06 ~ 2025-08',
+            period: `${firstMonth} ~ ${lastMonth}`,
             total_records: 0,
             weekly_stats: {},
             partner_summary: {},
