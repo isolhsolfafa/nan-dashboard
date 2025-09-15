@@ -1,8 +1,75 @@
 {
-  "extracted_at": "2025-09-08T09:06:23.789226",
+  "extracted_at": "2025-09-15T22:02:31.258179",
   "period": "2025-09",
-  "total_records": 31,
+  "total_records": 65,
   "weekly_stats": {
+    "37주차": {
+      "week_number": 37,
+      "date": "2025-09-14",
+      "weekday": "Sunday",
+      "is_sunday_data": true,
+      "data_source": "일요일",
+      "total_records": 34,
+      "partners": {
+        "mech": {
+          "BAT": {
+            "total_tasks": 558,
+            "nan_count": 4,
+            "nan_ratio": 0.62,
+            "records": [
+              {
+                "order_no": "250820/5978/6032",
+                "model_name": "GAIA-II DUAL",
+                "nan_count": 2,
+                "total_tasks": 37,
+                "nan_ratio": 10.526315789473683,
+                "order_href": "https://docs.google.com/spreadsheets/d/1mvIkdg3wVuxVI9uaN5cPlNJTsuwixoi_ikOct5jtaNc/edit"
+              },
+              {
+                "order_no": "250820/5978/6033",
+                "model_name": "GAIA-II DUAL",
+                "nan_count": 2,
+                "total_tasks": 37,
+                "nan_ratio": 10.526315789473683,
+                "order_href": "https://docs.google.com/spreadsheets/d/1C4sMl0By0vS1qemaWMJotwGmgwyDw0cy_McYucSU3bw/edit"
+              }
+            ]
+          },
+          "FNI": {
+            "total_tasks": 671,
+            "nan_count": 0,
+            "nan_ratio": 0.0,
+            "records": []
+          },
+          "TMS(M)": {
+            "total_tasks": 0,
+            "nan_count": 0,
+            "nan_ratio": 0.0,
+            "records": []
+          }
+        },
+        "elec": {
+          "C&A": {
+            "total_tasks": 575,
+            "nan_count": 0,
+            "nan_ratio": 0.0,
+            "records": []
+          },
+          "P&S": {
+            "total_tasks": 313,
+            "nan_count": 0,
+            "nan_ratio": 0.0,
+            "records": []
+          },
+          "TMS(E)": {
+            "total_tasks": 341,
+            "nan_count": 0,
+            "nan_ratio": 0.0,
+            "records": []
+          }
+        }
+      }
+    },
     "36주차": {
       "week_number": 36,
       "date": "2025-09-07",
@@ -73,20 +140,28 @@
   },
   "partner_summary": {
     "BAT": {
-      "total_tasks": 506,
-      "nan_count": 0,
+      "total_tasks": 1064,
+      "nan_count": 4,
       "weeks": {
+        "37주차": {
+          "nan_count": 4,
+          "total_tasks": 558
+        },
         "36주차": {
           "nan_count": 0,
           "total_tasks": 506
         }
       },
-      "nan_ratio": 0.0
+      "nan_ratio": 0.31
     },
     "FNI": {
-      "total_tasks": 564,
+      "total_tasks": 1235,
       "nan_count": 0,
       "weeks": {
+        "37주차": {
+          "nan_count": 0,
+          "total_tasks": 671
+        },
         "36주차": {
           "nan_count": 0,
           "total_tasks": 564
@@ -106,9 +181,13 @@
       "nan_ratio": 0.0
     },
     "C&A": {
-      "total_tasks": 335,
+      "total_tasks": 910,
       "nan_count": 0,
       "weeks": {
+        "37주차": {
+          "nan_count": 0,
+          "total_tasks": 575
+        },
         "36주차": {
           "nan_count": 0,
           "total_tasks": 335
@@ -117,9 +196,13 @@
       "nan_ratio": 0.0
     },
     "P&S": {
-      "total_tasks": 218,
+      "total_tasks": 531,
       "nan_count": 0,
       "weeks": {
+        "37주차": {
+          "nan_count": 0,
+          "total_tasks": 313
+        },
         "36주차": {
           "nan_count": 0,
           "total_tasks": 218
@@ -128,9 +211,13 @@
       "nan_ratio": 0.0
     },
     "TMS(E)": {
-      "total_tasks": 614,
+      "total_tasks": 955,
       "nan_count": 0,
       "weeks": {
+        "37주차": {
+          "nan_count": 0,
+          "total_tasks": 341
+        },
         "36주차": {
           "nan_count": 0,
           "total_tasks": 614
@@ -142,6 +229,7 @@
   "metadata": {
     "data_source_logic": "33주차부터 일요일, 32주차 이하 금요일",
     "weeks_analyzed": [
+      "37주차",
       "36주차"
     ],
     "extraction_method": "final_accurate_with_details",
