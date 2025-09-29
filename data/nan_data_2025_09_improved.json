@@ -1,8 +1,67 @@
 {
-  "extracted_at": "2025-09-22T10:51:06.286971",
+  "extracted_at": "2025-09-29T10:52:12.473663",
   "period": "2025-09",
-  "total_records": 93,
+  "total_records": 127,
   "weekly_stats": {
+    "39주차": {
+      "week_number": 39,
+      "date": "2025-09-28",
+      "weekday": "Sunday",
+      "is_sunday_data": true,
+      "data_source": "일요일",
+      "total_records": 34,
+      "partners": {
+        "mech": {
+          "BAT": {
+            "total_tasks": 888,
+            "nan_count": 1,
+            "nan_ratio": 0.16,
+            "records": [
+              {
+                "order_no": "250714/5799/5863",
+                "model_name": "GAIA-I DUAL",
+                "nan_count": 1,
+                "total_tasks": 36,
+                "nan_ratio": 5.555555555555555,
+                "order_href": "https://docs.google.com/spreadsheets/d/1VOnTepwnYFDD5FdS2LPXkfxpR1WTv2eOxsTgImHtdOo/edit"
+              }
+            ]
+          },
+          "FNI": {
+            "total_tasks": 301,
+            "nan_count": 0,
+            "nan_ratio": 0.0,
+            "records": []
+          },
+          "TMS(M)": {
+            "total_tasks": 0,
+            "nan_count": 0,
+            "nan_ratio": 0.0,
+            "records": []
+          }
+        },
+        "elec": {
+          "C&A": {
+            "total_tasks": 481,
+            "nan_count": 0,
+            "nan_ratio": 0.0,
+            "records": []
+          },
+          "P&S": {
+            "total_tasks": 492,
+            "nan_count": 0,
+            "nan_ratio": 0.0,
+            "records": []
+          },
+          "TMS(E)": {
+            "total_tasks": 216,
+            "nan_count": 0,
+            "nan_ratio": 0.0,
+            "records": []
+          }
+        }
+      }
+    },
     "38주차": {
       "week_number": 38,
       "date": "2025-09-21",
@@ -239,9 +298,13 @@
   },
   "partner_summary": {
     "BAT": {
-      "total_tasks": 1572,
-      "nan_count": 4,
+      "total_tasks": 2460,
+      "nan_count": 5,
       "weeks": {
+        "39주차": {
+          "nan_count": 1,
+          "total_tasks": 888
+        },
         "38주차": {
           "nan_count": 0,
           "total_tasks": 508
@@ -255,12 +318,16 @@
           "total_tasks": 506
         }
       },
-      "nan_ratio": 0.21
+      "nan_ratio": 0.2
     },
     "FNI": {
-      "total_tasks": 1695,
+      "total_tasks": 1996,
       "nan_count": 0,
       "weeks": {
+        "39주차": {
+          "nan_count": 0,
+          "total_tasks": 301
+        },
         "38주차": {
           "nan_count": 0,
           "total_tasks": 460
@@ -292,9 +359,13 @@
       "nan_ratio": 0.0
     },
     "C&A": {
-      "total_tasks": 1194,
+      "total_tasks": 1675,
       "nan_count": 0,
       "weeks": {
+        "39주차": {
+          "nan_count": 0,
+          "total_tasks": 481
+        },
         "38주차": {
           "nan_count": 0,
           "total_tasks": 284
@@ -311,9 +382,13 @@
       "nan_ratio": 0.0
     },
     "P&S": {
-      "total_tasks": 887,
+      "total_tasks": 1379,
       "nan_count": 20,
       "weeks": {
+        "39주차": {
+          "nan_count": 0,
+          "total_tasks": 492
+        },
         "38주차": {
           "nan_count": 20,
           "total_tasks": 356
@@ -327,12 +402,16 @@
           "total_tasks": 218
         }
       },
-      "nan_ratio": 3.97
+      "nan_ratio": 2.98
     },
     "TMS(E)": {
-      "total_tasks": 1316,
+      "total_tasks": 1532,
       "nan_count": 0,
       "weeks": {
+        "39주차": {
+          "nan_count": 0,
+          "total_tasks": 216
+        },
         "38주차": {
           "nan_count": 0,
           "total_tasks": 361
@@ -352,6 +431,7 @@
   "metadata": {
     "data_source_logic": "33주차부터 일요일, 32주차 이하 금요일",
     "weeks_analyzed": [
+      "39주차",
       "38주차",
       "37주차",
       "36주차"
